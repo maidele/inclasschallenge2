@@ -6,9 +6,6 @@ let products = [
 
 ];
 
-getProductsByCategory(products, category);{
-    return products.filter(product => product.category == category);
-
+getProductsByCategory(products, "Electronics");{
+console.log(getProductsByCategory) (products, "Electronics")
 }
-
-console.log(getProductsByCategory)
