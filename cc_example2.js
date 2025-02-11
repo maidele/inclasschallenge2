@@ -6,7 +6,7 @@ let products = [
 
 ];
 
-function getProductsByCategory(products_array, category_name);{
+function getProductsByCategory(products_array, category_name){
     return products_array.filter(product => product.category == category == category_name);
     
 //}
@@ -32,16 +32,18 @@ function applyDiscount(products, discountRate) {
  let sales = [250,400, 150, 900, 1200];
 
  function calculateTotalRevenue(sales) {
-    return sales.reduce (calculateTotalRevenue,sale)=>total+sale,runningTotal)
+    return sales.reduce((total,sale) => total+sale,0);
  }
 
- console.log(calculateTotalRevenue(sales)};
+ console.log(calculateTotalRevenue(sales));
 
  //Task 4
 
- let employee = { "john Doe"}
+ let employee = {name: "john Doe", salary: 5000, position: "Manager"};
 
+ function updateSalary(employee, percentageIncrease) {
+    return employee.salary = employee.salary *percentageIncrease;
 
-
-
-
+ }
+ console.log(updateSalary(employee, .1))
+};
