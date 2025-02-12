@@ -23,7 +23,6 @@ function applyDiscount(products, discountRate) {
 
  ))
 }
-
  console.log (applyDiscount(products, .1));
 
 
